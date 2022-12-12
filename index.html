@@ -29,7 +29,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- Responsive Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=IBM+Plex+Mono:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,8 +49,14 @@
             <span class="icon-menu"></span>
             <span class="icon-menu"></span>
           </button>
-          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+          
+<!-- clock widget start -->
+<script type="text/javascript"> var css_file=document.createElement("link"); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href","https://s.bookcdn.com//css/cl/bw-cl-200x24.css?v=0.0.1"); document.getElementsByTagName("head")[0].appendChild(css_file); </script> <div id="tw_2_954950800"><div style="width:200px; height:24px; margin: 0 auto;"><a href="https://hotelmix.es/time/bahia-blanca-42707">Bahía Blanca</a><br/></div></div> <script type="text/javascript"> function setWidgetData_954950800(data){ if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = ''; var params = data.results[i]; objMainBlock = document.getElementById('tw_'+params.widget_type+'_'+params.widget_id); if(objMainBlock !== null) objMainBlock.innerHTML = params.html_code; } } } var clock_timer_954950800 = -1; widgetSrc = "https://widgets.booked.net/time/info?ver=2;domid=582;type=2;id=954950800;scode=26648;city_id=42707;wlangid=4;mode=0;details=0;background=ffffff;border_color=ffffff;color=000000;add_background=2071c9;add_color=ffffff;head_color=ffffff;border=0;transparent=0"; var widgetUrl = location.href; widgetSrc += '&ref=' + widgetUrl; var wstrackId = ""; if (wstrackId) { widgetSrc += ';wstrackId=' + wstrackId + ';' } var timeBookedScript = document.createElement("script"); timeBookedScript.setAttribute("type", "text/javascript"); timeBookedScript.src = widgetSrc; document.body.appendChild(timeBookedScript); </script>
+<!-- clock widget end -->
+
+
         </div>
+
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
             <li class="nav-item active">
@@ -276,7 +283,7 @@
               Todos
             </a>
             <a class="filter btn btn-common" data-filter=".development">
-              Development
+              Desarrollo Web
             </a>
             <a class="filter btn btn-common" data-filter=".print">
               Marketing Digital
@@ -288,7 +295,7 @@
         <!-- Portfolio Recent Projects -->
         <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
 
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="col-sm-6  mix development">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="assets/img/gallery/img-3.jpg" alt="" />
@@ -306,7 +313,7 @@
             </div>
           </div>
          
-          <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+          <div class="col-sm-6 mix print design">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="assets/img/gallery/img-6.jpg" alt="" />
@@ -315,7 +322,7 @@
                     <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
                       <i class="icon-eye"></i>
                     </a>
-                    <a class="link" href="https://www.instagram.com/alfajores20dejunio/?hl=es" target="_blank">
+                    <a class="link" href="https://www.canva.com/design/DAFUkvzy6eY/zuuyp4JpSbIh4z72R7KGMw/view?utm_content=DAFUkvzy6eY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview" target="_blank">
                       <i class="icon-link"></i>
                     </a>
                   </div>
@@ -334,24 +341,24 @@
   <section class="counter-section section-padding">
     <div class="container">
       <div class="row">
-        <!-- Counter Item -->
-        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+
+        <div class="col-sm work-counter-widget text-center">
           <div class="counter wow fadeInDown" data-wow-delay="0.3s">
             <div class="icon"><i class="icon-briefcase"></i></div>
             <div class="counterUp">2</div>
             <p>Projectos finalizados</p>
           </div>
         </div>
-        <!-- Counter Item -->
-        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+
+        <div class="col-smwork-counter-widget text-center">
           <div class="counter wow fadeInDown" data-wow-delay="0.6s">
             <div class="icon"><i class="icon-check"></i></div>
             <div class="counterUp">2</div>
             <p>Cursos realizados</p>
           </div>
         </div>
-        <!-- Counter Item -->
-        <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+
+        <div class="col-sm work-counter-widget text-center">
           <div class="counter wow fadeInDown" data-wow-delay="1.2s">
             <div class="icon"><i class="icon-heart"></i></div>
             <div class="counterUp">2</div>
@@ -365,61 +372,11 @@
 
   <!-- Contact Section Start -->
   <section id="contact" class="section-padding">
-    <div class="contact-form">
-      <div class="container">
-        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <div class="contact-block">
-              <h2>Contacto Rápido</h2>
-              <form id="contactForm">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="Nombre" placeholder="Nombre" required
-                        data-error="Por favor escribe tu nombre">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
-                        data-error="Por favor escribe tu e-mail">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Asunto" id="msg_subject" class="form-control" required
-                        data-error="Por favor escribe el asunto">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Tu mensaje" rows="5"
-                        data-error="Escribe tu mensaje" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="submit-button">
-                      <button class="btn btn-common" id="submit" type="submit">Enviar</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div>
-                      <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-sm-12">
+
+          <div>
             <div class="footer-right-area wow fadeIn">
-              <h2>Otras vías de contacto</h2>
+              <h2>Contacto</h2>
               <div class="footer-right-contact">
-                <div class="single-contact">
-                  <div class="contact-icon">
-                    <i class="fa fa-map-marker"></i>
-                  </div>
-                  <p>Bahía Blanca, Buenos Aires, Argentina</p>
-                </div>
                 <div class="single-contact">
                   <div class="contact-icon">
                     <i class="fa fa-envelope"></i>
@@ -432,29 +389,29 @@
                   </div>
                   <p><a href="https://wa.me/1234">+54 291-1234</a></p>
                 </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                  </div>
+                  <p>O através de mis redes sociales (al pie de la página)</p>
+                </div>
               </div>
             </div>
           </div>
-
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 text-center">
-        <div class="contents">
-          <h2 class="script-font wow fadeInUp" data-wow-delay="0.6s">Si te gustó mi trabajo podés hacer una donación aquí</h2>
-          <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-          data-preference-id="90313265-8d1f283c-2651-4ea4-bccc-51a164c1816a" data-source="button">
-          </script></div>
         </div>
       </div>
     </div>
 
-
-        </div>
-      </div>
-    </div>
+    <div class="donacion">
+      <h2 class="script-font wow fadeInUp" data-wow-delay="0.6s">Si te gustó mi website, podés hacer una donación aquí:</h2><br>
+      <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+      data-preference-id="90313265-8d1f283c-2651-4ea4-bccc-51a164c1816a" data-source="button">
+      </script></div>
   </section>
+
   <!-- Contact Section End -->
+
+
 
   <!-- Footer Section Start -->
   <footer class="footer-area section-padding">
